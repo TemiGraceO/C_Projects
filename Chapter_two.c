@@ -36,10 +36,11 @@ int main(){
     //Total Revenue
     float price = 0;
     float Quantity = 0;
-    float Total_Revenue = price * Quantity;
-    printf("Enter Price:\n");
+    float Total_Revenue = 0;
+    printf("Enter Price:");
     scanf("%f", &price);
-    printf("Enter Quantity:\n");
+    printf("Enter Quantity:");
     scanf("%f", &Quantity);
-    printf("Total Revenue is: %f", Total_Revenue);
+    Total_Revenue = price * Quantity;
+    printf("Total Revenue is: %.4f", Total_Revenue);
 }
