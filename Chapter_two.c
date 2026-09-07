@@ -34,12 +34,12 @@ int main(){
     printf("Good day, %s!\n", chrName);
 
     //Total Revenue
-    float price;
-    float Quantity;
+    float price = 0;
+    float Quantity = 0;
     float Total_Revenue = price * Quantity;
     printf("Enter Price:\n");
-    scanf("%f", price);
+    scanf("%f", &price);
     printf("Enter Quantity:\n");
-    scanf("%f", Quantity);
+    scanf("%f", &Quantity);
     printf("Total Revenue is: %f", Total_Revenue);
 }
