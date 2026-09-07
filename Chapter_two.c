@@ -31,5 +31,15 @@ int main(){
     char chrName[50];
     printf("Please Enter Your Name: ");
     scanf("%s", chrName);
-    printf("Good day, %s!", chrName);
+    printf("Good day, %s!\n", chrName);
+
+    //Total Revenue
+    float price;
+    float Quantity;
+    float Total_Revenue = price * Quantity;
+    printf("Enter Price:\n");
+    scanf("%f", price);
+    printf("Enter Quantity:\n");
+    scanf("%f", Quantity);
+    printf("Total Revenue is: %f", Total_Revenue);
 }
