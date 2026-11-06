@@ -2,8 +2,9 @@
 #include "cs50.h"
 
 int main(){
-    for (int i = 1; i <= 6; i++){
-        for(int j = 1; j <= i; j++){
+    int i = get_int("Enter a number to signify height: ");
+    for (int j = 1; j <= i; j++){
+        for(int k = 1; k <= j; k++){
             printf("#");
         }
         printf("\n");
